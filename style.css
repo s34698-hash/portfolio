@@ -1,82 +1,40 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แฟ้มสะสมผลงาน</title>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+/* ส่วนหัว */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-        header {
-            background-color: #0077cc;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+/* กล่องเนื้อหา */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
-        section {
-            background-color: white;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 10px;
-        }
+/* หัวข้อ */
+h2 {
+    color: green;
+}
 
-        h2 {
-            color: #0077cc;
-        }
+/* รายการผลงาน */
+ul {
+    padding-left: 20px;
+}
 
-        footer {
-            text-align: center;
-            background-color: #0077cc;
-            color: white;
-            padding: 10px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <header>
-        <h1>แฟ้มสะสมผลงาน (Portfolio)</h1>
-        <p>เว็บไซต์แสดงผลงานและแบ่งปันโค้ด</p>
-    </header>
-
-    <section>
-        <h2>ข้อมูลส่วนตัว</h2>
-        <p>ชื่อ:นาย ณภัทร มีศิริ</p>
-        <p>ชั้น: ..................................</p>
-        <p>โรงเรียน: ..................................</p>
-    </section>
-
-    <section>
-        <h2>ผลงาน</h2>
-        <ul>
-            <li>เว็บไซต์คำนวณเกรด</li>
-            <li>เกมตอบคำถาม</li>
-            <li>แอปรายรับ-รายจ่าย</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Code Sharing</h2>
-        <pre>
-print("Hello World")
-        </pre>
-    </section>
-
-    <section>
-        <h2>ติดต่อ</h2>
-        <p>Email: example@gmail.com</p>
-    </section>
-
-    <footer>
-        <p>© 2026 Portfolio Website</p>
-    </footer>
-
-</body>
-</html>
+/* ส่วนท้าย */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
